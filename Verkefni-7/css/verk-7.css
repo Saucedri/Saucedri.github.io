@@ -1,0 +1,135 @@
+
+.color{
+    background-color: white;
+}
+
+.color2{
+    background-color: green
+}
+
+.color3{
+    background-color: #975b30
+}
+
+.wait-bg{
+    background-color: #f53d3d;
+}
+
+.aside-menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.gaman{
+    background-color: pink;
+}
+
+.text{
+    text-align: center;
+    color: dimgray;
+    margin: 0px;
+    padding: 60px;
+}
+
+.text2{
+    text-align: center;
+    color: dimgray;
+    margin: 0px;
+    padding: 10px;
+}
+
+.text3{
+    text-align: center;
+}
+
+.text4{
+    text-align: left;
+}
+
+.dalkar{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.main-bg{
+    background-color: #D60270;
+}
+
+.main-bg2{
+    background-color: white
+}
+
+.font{
+    font-family: monospace;
+    margin: 0px;
+}
+
+.footer{
+    background-color: pink;
+}
+
+img{
+    display: none;
+}
+
+
+.marg{
+    margin: 0px;
+}
+
+.border{
+    border: solid black ;
+    padding: 10px;
+    margin:0px;
+}
+
+.nav-bg{
+    background-color: olivedrab
+}
+
+.nav-bg2{
+    background-color: orangered;
+}
+
+.nav-bg3{
+    background-color: #9B4F96
+}
+
+.nav-bg4{
+    background-color: #0038A8;
+}
+
+
+@media screen and (min-width: 960px) {
+   
+    .box{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    
+}
+
+
+@media screen and (min-width: 600px) {
+   
+    .aside-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+   
+
+}
+
+@media screen and (min-width: 960px) {
+   
+    .footer1{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    img{
+    display: inline;
+}
+} 
